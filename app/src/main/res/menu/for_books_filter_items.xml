@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+        android:id="@+id/requiredBooks_Menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/requiredBooks_Menu" />
+
+    <item
+       	android:id="@+id/availableBooks_Menu"
+       	android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/availableBooks_Menu" />
+    
+    <item
+        android:id="@+id/linkedBooks_Menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/linkedBooks_Menu" />
+    
+     <item
+        android:id="@+id/dontFilter_Menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/dontFilter_Menu" />
+    
+</menu>

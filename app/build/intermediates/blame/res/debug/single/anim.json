@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\from_home2books_in.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\anim\\from_home2books_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\entering.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\anim\\entering.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\from_home2books_out.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\anim\\from_home2books_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\anim\\exit.xml"
+    }
+]

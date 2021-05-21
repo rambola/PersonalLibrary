@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_Menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/add_Menu" />
+
+    <item
+       	android:id="@+id/sort_Menu"
+       	android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sort_Menu" />
+        
+    <item
+        android:id="@+id/filter_Menu"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/filter_Menu" />
+        
+</menu>

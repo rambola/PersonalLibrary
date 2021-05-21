@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\splash2.gif",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\splash2.gif"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\splash1.jpg",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\splash1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\libraryimg1.jpg",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\libraryimg1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_book_cover1.jpg",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\default_book_cover1.jpg"
+    }
+]

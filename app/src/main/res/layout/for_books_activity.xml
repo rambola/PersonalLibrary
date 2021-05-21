@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="75dp"
+    android:background="@android:color/darker_gray" >
+
+    <ImageView
+        android:id="@+id/for_books_activity_imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="7dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_book_cover1"
+        android:background="@drawable/oval"
+        android:requiresFadingEdge="vertical"
+        android:contentDescription="@string/bookNameImageView" />
+
+    <TextView
+        android:id="@+id/for_books_activity_bookName_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/for_books_activity_imageView"
+        android:text="@string/bookName"
+         />
+
+    <TextView
+        android:id="@+id/for_books_activity_bookUploaded_Date_Time_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/for_books_activity_bookAuthor_textView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:text="@string/bookDate"
+         /> <!-- android:layout_alignLeft="@+id/for_books_activity_bookAuthor_textView" -->
+
+    <TextView
+        android:id="@+id/for_books_activity_bookAuthor_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/for_books_activity_bookName_textView"
+        android:layout_below="@+id/for_books_activity_bookVersion_textView"
+        android:text="@string/bookAuthor" />
+
+    <TextView
+        android:id="@+id/for_books_activity_bookVersion_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/for_books_activity_bookName_textView"
+        android:layout_below="@+id/for_books_activity_bookName_textView"
+        android:text="@string/bookVersion" />
+
+    <ImageView
+        android:id="@+id/for_books_activity_bookStatus_imageView"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:contentDescription="@string/bookNameImageView"
+        android:layout_alignRight="@+id/for_books_activity_bookUploaded_Date_Time_textView"
+        android:layout_alignTop="@+id/for_books_activity_imageView"
+        android:src="@drawable/available" />
+
+</RelativeLayout>

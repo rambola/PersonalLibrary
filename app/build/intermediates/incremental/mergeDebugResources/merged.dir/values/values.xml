@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BookStatus">
+        <item>Book Status</item>
+        <item>Available</item>
+        <item>Required</item>
+        <item>Linked</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="Website">Website</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="addBookBtn">Add Book</string>
+    <string name="add_Menu">Add</string>
+    <string name="app_name">Home Library</string>
+    <string name="authorInfo">Author Information</string>
+    <string name="authorLPhone">Land Phone</string>
+    <string name="authorMPhone">Mobile Number</string>
+    <string name="authorMail">Mail</string>
+    <string name="availableBooks_Menu">Available Books</string>
+    <string name="bookAuthor">Book Author</string>
+    <string name="bookDate">26 Dec 2014</string>
+    <string name="bookLink">Link</string>
+    <string name="bookName">Book Name</string>
+    <string name="bookNameImageView">BookName</string>
+    <string name="bookPublisher">Book Publisher</string>
+    <string name="bookStatus">Book Status</string>
+    <string name="bookVersion">Book Version</string>
+    <string name="byAuthorName_Menu">By Author Name</string>
+    <string name="byBookName_Menu">By Book Name</string>
+    <string name="byDate_Menu">By Date</string>
+    <string name="byDontSort_Menu">Dont Sort</string>
+    <string name="byPublisher_Menu">By Publisher</string>
+    <string name="delete_Menu">Delete</string>
+    <string name="dontFilter_Menu">Dont Filter</string>
+    <string name="edit_Menu">Edit</string>
+    <string name="export_Menu">Export</string>
+    <string name="filter_Menu">Filter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="import_Menu">Import</string>
+    <string name="linkedBooks_Menu">Linked Books</string>
+    <string name="publisherInfo">Publisher Information</string>
+    <string name="publisherLPhone">Land Phone</string>
+    <string name="publisherMPhone">Mobile Number</string>
+    <string name="publisherMail">Mail</string>
+    <string name="requiredBooks_Menu">Required Books</string>
+    <string name="search_hint">Search Book</string>
+    <string name="someText">asdfghjkl</string>
+    <string name="sort_Menu">Sort</string>
+    <string name="title_activity_books__main">Books_MainActivity</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="totalBooks">11</string>
+    <string name="updateBookBtn">Update</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

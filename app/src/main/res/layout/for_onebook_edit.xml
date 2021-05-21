@@ -1,0 +1,414 @@
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/forOneBookEdit_scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/forOneBookInfo_book_imageView"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+         	<RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" >
+
+                <Spinner
+                    android:id="@+id/forOneBookEdit_status_Spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/bookStatus"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:entries="@array/BookStatus" />
+
+                <EditText
+                    android:id="@+id/forOneBookEdit_bookName_editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/forOneBookEdit_book_imageView"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_toRightOf="@+id/forOneBookEdit_book_imageView"
+                    android:hint="@string/bookName"
+                    android:singleLine="true"
+                    android:paddingLeft="7dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+		            android:background="@drawable/border" />
+                
+                <EditText
+                    android:id="@+id/forOneBookEdit_bookVersion_editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_alignLeft="@+id/forOneBookEdit_bookName_editText"
+                    android:layout_below="@+id/forOneBookEdit_bookName_editText"
+                    android:ems="10"
+                    android:hint="@string/bookVersion"
+                    android:paddingLeft="7dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+		           	android:background="@drawable/border" />
+                
+                <EditText
+                    android:id="@+id/forOneBookEdit_bookAuthor_editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_alignLeft="@+id/forOneBookEdit_bookVersion_editText"
+                    android:layout_below="@+id/forOneBookEdit_bookVersion_editText"
+                    android:ems="10"
+                    android:hint="@string/bookAuthor"
+                    android:paddingLeft="7dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+		           	android:background="@drawable/border" />
+                
+                <EditText
+                    android:id="@+id/forOneBookEdit_bookPublisher_editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_alignLeft="@+id/forOneBookEdit_bookAuthor_editText"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/forOneBookEdit_bookAuthor_editText"
+                    android:ems="10"
+                    android:hint="@string/bookPublisher"
+                    android:paddingLeft="7dp"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+		           	android:background="@drawable/border" />
+                
+                <ImageView
+                    android:id="@+id/forOneBookEdit_book_imageView"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/forOneBookEdit_status_Spinner"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="14dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/bookNameImageView"
+                    android:src="@drawable/default_book_cover1" />
+                
+                <Button
+	                android:id="@+id/forOneBookEdit_deleteOneBookImage_Btn"
+	                android:layout_width="22dp"
+	                android:layout_height="22dp"
+	                android:layout_alignRight="@+id/forOneBookEdit_book_imageView"
+	                android:layout_alignTop="@+id/forOneBookEdit_book_imageView"
+	                android:layout_marginTop="2dp"
+	                android:layout_marginRight="2dp"
+	                android:background="@drawable/ic_action_remove" />
+
+               </RelativeLayout>
+               
+        <LinearLayout
+            		android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+            		android:orientation="vertical"
+            		android:layout_marginLeft="15dp"
+            		android:layout_marginRight="11dp"
+            		android:layout_marginTop="4dp" >
+			
+           <TextView
+                    android:id="@+id/forOneBookEdit_bookLink_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/bookLink"
+                    android:paddingLeft="7dp"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:gravity="center_vertical"
+	            	android:background="@drawable/border" />
+           
+           	<LinearLayout
+            		android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+            		android:orientation="vertical" >
+					
+                    <TextView
+                    	android:id="@+id/forOneBookEdit_authorInfo_textView"
+                    	android:layout_width="wrap_content"
+                    	android:layout_height="50dp"
+                    	android:ems="10"
+                    	android:text="@string/authorInfo"
+                    	android:paddingLeft="7dp"
+                    	android:textAppearance="?android:attr/textAppearanceLarge"
+                    	android:gravity="center_vertical"
+		           		android:layout_marginTop="5dp" />
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_authorMail_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/authorMail" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_authorMail_editText"
+                    		android:layout_width="match_parent"
+                    		android:layout_height="match_parent"
+                    		android:gravity="center_vertical"
+                    		android:ems="10"
+                    		android:inputType="textEmailAddress"
+                    		android:singleLine="true"
+                    		android:hint="@string/authorMail"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_authorLPhone_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/authorLPhone" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_authorLPhone_editText"
+                    		android:layout_width="wrap_content"
+                    		android:layout_height="match_parent"
+                    		android:ems="10"
+                    		android:inputType="phone"
+                    		android:singleLine="true"
+                    		android:hint="@string/authorLPhone"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_authorMPhone_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/authorMPhone" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_authorMPhone_editText"
+                    		android:layout_width="wrap_content"
+                    		android:layout_height="match_parent"
+                    		android:ems="10"
+                    		android:inputType="phone"
+                    		android:singleLine="true"
+                    		android:hint="@string/authorMPhone"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_authorWebsite_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/Website" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_authorWebsite_editText"
+                    		android:layout_width="wrap_content"
+                    		android:layout_height="match_parent"
+                    		android:ems="10"
+                    		android:singleLine="true"
+                    		android:hint="@string/Website"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+					<TextView
+                    	android:id="@+id/forOneBookEdit_publisherInfo_textView"
+                    	android:layout_width="wrap_content"
+                    	android:layout_height="50dp"
+                    	android:ems="10"
+                    	android:text="@string/publisherInfo"
+                    	android:paddingLeft="7dp"
+                    	android:textAppearance="?android:attr/textAppearanceLarge"
+                    	android:gravity="center_vertical"
+		           		android:layout_marginTop="5dp" />
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_publisherMail_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/publisherMail" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_publisherMail_editText"
+                    		android:layout_width="wrap_content"
+                    		android:layout_height="match_parent"
+                    		android:ems="10"
+                    		android:hint="@string/publisherMail"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_publisherLPhone_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/publisherLPhone" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_publisherLPhone_editText"
+                    		android:layout_width="wrap_content"
+                    		android:layout_height="match_parent"
+                    		android:ems="10"
+                    		android:inputType="phone"
+                    		android:singleLine="true"
+                    		android:hint="@string/publisherLPhone"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_publisherMPhone_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/publisherMPhone" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_publisherMPhone_editText"
+                    		android:layout_width="wrap_content"
+                    		android:layout_height="match_parent"
+                    		android:ems="10"
+                    		android:inputType="phone"
+                    		android:singleLine="true"
+                    		android:hint="@string/publisherMPhone"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="40dp"
+            			android:orientation="horizontal"
+            			android:layout_marginTop="5dp" >
+
+                        <TextView
+                    		android:id="@+id/forOneBookEdit_publisherWebsite_textView"
+                    		android:layout_width="125dp"
+                    		android:layout_height="match_parent"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+                    		android:text="@string/Website" />
+
+                	   <EditText
+                    		android:id="@+id/forOneBookEdit_publisherWebsite_editText"
+                    		android:layout_width="wrap_content"
+                    		android:layout_height="match_parent"
+                    		android:ems="10"
+                    		android:singleLine="true"
+                    		android:hint="@string/Website"
+                    		android:paddingLeft="7dp"
+                    		android:textAppearance="?android:attr/textAppearanceMedium"
+                    		android:gravity="center_vertical"
+		           			android:background="@drawable/border" />
+                        			
+                    </LinearLayout>
+                    
+                    <LinearLayout
+            			android:layout_width="match_parent"
+            			android:layout_height="wrap_content"
+            			android:orientation="vertical"
+            			android:layout_marginTop="22dp"
+            			android:layout_marginBottom="11dp" >
+                	 
+                         <Button
+                             android:id="@+id/forOneBookEdit_updateBtn"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:layout_gravity="center"
+                             android:text="@string/updateBookBtn"
+                             android:textSize="22sp"
+                             android:background="@android:color/black"
+                             android:textColor="@android:color/white" />
+                         
+                	 </LinearLayout>
+                    
+               </LinearLayout>
+               
+           	</LinearLayout>
+			
+        </LinearLayout>
+        
+    </ScrollView>

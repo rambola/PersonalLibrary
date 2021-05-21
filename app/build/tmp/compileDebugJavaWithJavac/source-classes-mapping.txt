@@ -1,0 +1,58 @@
+com/example/homelibrary/DrawerLayoutAdapter.java
+ com.example.homelibrary.DrawerLayoutAdapter
+com/example/homelibrary/Books_ListFragment.java
+ com.example.homelibrary.Books_ListFragment
+ com.example.homelibrary.Books_ListFragment$1
+ com.example.homelibrary.Books_ListFragment$2
+com/example/homelibrary/Books_Activity.java
+ com.example.homelibrary.Books_Activity
+ com.example.homelibrary.Books_Activity$1
+ com.example.homelibrary.Books_Activity$2
+ com.example.homelibrary.Books_Activity$3
+ com.example.homelibrary.Books_Activity$4
+ com.example.homelibrary.Books_Activity$SlideMenuClickListener
+com/example/homelibrary/BooksInfoClass.java
+ com.example.homelibrary.BooksInfoClass
+com/example/homelibrary/AddNewBook_Fragment.java
+ com.example.homelibrary.AddNewBook_Fragment
+ com.example.homelibrary.AddNewBook_Fragment$1
+ com.example.homelibrary.AddNewBook_Fragment$2
+ com.example.homelibrary.AddNewBook_Fragment$2$1
+ com.example.homelibrary.AddNewBook_Fragment$2$2
+ com.example.homelibrary.AddNewBook_Fragment$3
+ com.example.homelibrary.AddNewBook_Fragment$4
+com/example/homelibrary/BuildConfig.java
+ com.example.homelibrary.BuildConfig
+com/example/homelibrary/ForSortFilter_Fragment.java
+ com.example.homelibrary.ForSortFilter_Fragment
+ com.example.homelibrary.ForSortFilter_Fragment$1
+com/example/homelibrary/SearchViewAdapter.java
+ com.example.homelibrary.SearchViewAdapter
+com/example/homelibrary/Items_SectionHeaderClass.java
+ com.example.homelibrary.Items_SectionHeaderClass
+com/example/homelibrary/OneBook_Edit_Fragment.java
+ com.example.homelibrary.OneBook_Edit_Fragment
+ com.example.homelibrary.OneBook_Edit_Fragment$1
+ com.example.homelibrary.OneBook_Edit_Fragment$2
+ com.example.homelibrary.OneBook_Edit_Fragment$2$1
+ com.example.homelibrary.OneBook_Edit_Fragment$2$2
+ com.example.homelibrary.OneBook_Edit_Fragment$3
+ com.example.homelibrary.OneBook_Edit_Fragment$4
+com/example/homelibrary/HomeLibrary_MainActivity.java
+ com.example.homelibrary.HomeLibrary_MainActivity
+ com.example.homelibrary.HomeLibrary_MainActivity$1
+com/example/homelibrary/SearchResultsActivity.java
+ com.example.homelibrary.SearchResultsActivity
+com/example/homelibrary/Books_Database.java
+ com.example.homelibrary.Books_Database
+com/example/homelibrary/Books_OneBook_Fragment.java
+ com.example.homelibrary.Books_OneBook_Fragment
+ com.example.homelibrary.Books_OneBook_Fragment$1
+ com.example.homelibrary.Books_OneBook_Fragment$2
+com/example/homelibrary/Interface_DrawerLayout.java
+ com.example.homelibrary.Interface_DrawerLayout
+com/example/homelibrary/ForBooksListFragment_Adapter.java
+ com.example.homelibrary.ForBooksListFragment_Adapter
+ com.example.homelibrary.ForBooksListFragment_Adapter$BookHolder
+com/example/homelibrary/SectionHeaderClass.java
+ com.example.homelibrary.SectionHeaderClass

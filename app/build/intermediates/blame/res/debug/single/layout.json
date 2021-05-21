@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_library__main.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\activity_home_library__main.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\items_sectionheader.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\items_sectionheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\for_books_onebook_fragment.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\for_books_onebook_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\for_onebook_edit.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\for_onebook_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sectionheader.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\sectionheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_books__main.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\activity_books__main.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\for_sortfilter_fragment.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\for_sortfilter_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adding_new_book.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\adding_new_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\for_books_activity.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\for_books_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_results.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\activity_search_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\for_books_activity_listfragment.xml",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\layout\\for_books_activity_listfragment.xml"
+    }
+]

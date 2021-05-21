@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_remove.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_drawer.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\nofilter.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\nofilter.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\available.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\available.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\libraryicon2.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\libraryicon2.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\page_white_link.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\page_white_link.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\required.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\required.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\list2.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\list2.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\add_book.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\add_book.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\name.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\name.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\libraryicon1.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\libraryicon1.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\date_and_time1.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\date_and_time1.png"
+    },
+    {
+        "merged": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\list1.png",
+        "source": "C:\\Users\\RAJ\\Desktop\\PersonalLibrary_Studio\\app\\src\\main\\res\\drawable-mdpi\\list1.png"
+    }
+]
